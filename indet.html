@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melat Mekonnen</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- add icon link -->
+    <link rel="icon" href="./image/Developer_Company-removebg-preview.png" type="png" class="www" />
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#"><img class="logo" src="./image/Developer_Company-removebg-preview.png" alt=""> </a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </header>
+    <!-- Home -->
+
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/JinkaCode"><i class='bx bxl-github'></i></a>
+            <a href="https://www.facebook.com/profile.php?id=6156444725488"><i
+                    class='bx-fw bx bxl-facebook-square'></i></a>
+            <a href="https://www.instagram.com/m/"><i class='bx-fw bx bxl-instagram'></i></a>
+        </div>
+        <div class="home-img">
+            <img src="./image/11.jpg" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Melat Mekonnen</h1>
+            <h2>Full Stack Developer</h2>
+            <p>Web designer and developer from <br>Addis Abeba,Ethiopia I create custom websites<br>to help businesses
+                do better online</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+                <img style="object-fit: cover;object-position:top;" src="./image/121.jpg" alt="" height="300px">
+            </div>
+            <div class="about-text">
+                <p>"As a passionate Full Stack Web Developer, I specialize in crafting seamless user experiences and
+                    robust backend solutions. With expertise in both frontend and backend technologies, I thrive on
+                    building responsive, intuitive, and high-performing websites and applications. My goal is to create
+                    impactful digital experiences that bridge the gap between design and functionality."</p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user'></i>
+                        <span>Melat Mekonnen</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <span>+251 933559779</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <span>melatmekonen@gmail.com</span>
+                    </div>
+                </div>
+                <a href="./web-developer2 - Template 18.pdf" class="btn">Download Cv</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="tabs-container">
+            <!-- Tab buttons -->
+            <div class="tab-buttons">
+                <button class="tab-btn active" onclick="openTab(event, 'skills')">Skills</button>
+                <button class="tab-btn" onclick="openTab(event, 'experience')">Experience</button>
+                <button class="tab-btn" onclick="openTab(event, 'education')">Education</button>
+            </div>
+
+            <!-- Tab content -->
+            <div class="tab-content">
+                <!-- Skills Tab -->
+                <div id="skills" class="tab-panel active">
+                    <h2>Skills</h2>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Tab -->
+                <div id="experience" class="tab-panel">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>Full Stack Developer at Internship Studios (2024 - Present)</li>
+                        <li>Frontend Developer at Guzo Go Agency (2021 - 2023)</li>
+                        <li>Web Development Intern at Amazon Company (2019 - 2021)</li>
+                        <li>I won 4 national innovation competition among them Solve IT</li>
+                    </ul>
+                </div>
+
+                <!-- Education Tab -->
+                <div id="education" class="tab-panel">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Bachelor's Degree in Software Engineering(2021-2026)</li>
+                        <li>Highschool Degree</li>
+                        <li>Web Development Bootcamp,AS2SV</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Services -->
+        <section class="services" id="services">
+            <div class="heading">
+                <h2>Services</h2>
+                <span>Our Services</span>
+            </div>
+            <div class="services-content">
+                <!-- Box 1 -->
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- Box 2 -->
+                <div class="services-box">
+                    <i class='bx bx-server'></i>
+                    <h3>Backend Development</h3>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- Box 3 -->
+                <div class="services-box">
+                    <i class='bx bx-brush'></i>
+                    <h3>UI/UX Design</h3>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxl-wordpress'></i>
+                    <h3>Wordpress Developer</h3>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section class="portfolio" id="portfolio">
+            <div class="heading">
+                <h2>Portfolio</h2>
+                <span>Our Recent Work</span>
+            </div>
+            <div class="portfolio-content">
+                <div class="portfolio-img">
+                    <img src="./image/blog-2.jpg" alt="">
+                </div>
+                <div class="portfolio-img">
+                    <img src="./image/blog-3.jpg" alt="">
+                </div>
+                <div class="portfolio-img">
+                    <img src="./image/blog-4.jpg" alt="">
+                </div>
+                <div class="portfolio-img">
+                    <img src="./image/blog-5.jpg" alt="">
+                </div>
+                <div class="portfolio-img">
+                    <img src="./image/blog-6.jpg" alt="">
+                </div>
+                <div class="portfolio-img">
+                    <img src="./image/blog-7.jpg" alt="">
+                </div>
+
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="heading">
+                <h2>Contact</h2>
+                <span>Connect With Us</span>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" name="" id="" placeholder="Your Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                    <input type="button" value="Send" class="contact-button">
+                </form>
+            </div>
+        </section>
+        <!-- Footer -->
+        <div class="footer">
+            <h2>Melat Mekonnen</h2>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/p"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in//"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/m/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/@Fet8%E1%89%B3%E1%88%AA%E1%8A%A0%E1%8A%AD%E1%89%B5"><i
+                        class='bx bxl-youtube'></i></a>
+            </div>
+
+        </div>
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>Create By <a href="">Melat Codes For Life</a> | All Right Reserved.</p>
+        </div>
+
+
+
+        <!-- Link To JS -->
+        <script src="./js/script.js"></script>
+</body>
+
+</html>
